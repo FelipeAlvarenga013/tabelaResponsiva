@@ -1,0 +1,256 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Tabela</title>
+    <style>
+        body {
+            background: lightslategray url("https://github.com/gustavoguanabara/html-css/blob/master/desafios/modulo-02/d011/imagens/espaco.jpg?raw=true") left top round fixed;
+        }
+
+        body
+        h1 {
+            color: rgb(255, 255, 255);
+            text-align: center;
+        }
+
+        section {
+            top: 50%;
+            left: 50%;
+            width: 100%;
+            overflow-x: auto;
+            position: absolute;
+            transform: translate(-50%,-50%);
+        }
+        
+        table {
+            margin: auto;
+            border-collapse: collapse;
+        }
+
+        table
+        caption {
+            color: #fff;
+            font-size: 20px;
+            font-family: Arial, Helvetica, sans-serif;
+        }
+
+        table
+        th,td {
+            color: #fff;
+            padding: 9px;
+            border: 1px solid rgb(255, 255, 255);
+            font-family: Arial, Helvetica, sans-serif;
+        }
+
+        table
+        tr td:first-child{
+            position: sticky;
+            left: 0;
+        }
+
+        table
+        tr td.Esp2 {
+            background-color: lightslategray;
+        }
+
+        table
+        tbody
+        tr.Esp:nth-child(odd) {
+            background-color: lightslategray;
+        }
+
+        table
+        tbody
+        td.Esp3 {
+            background-color: rgb(78, 101, 124);
+        }
+
+        table
+        tbody
+        tr.Esp:nth-child(even) {
+            background-color: rgb(78, 101, 124);
+        }
+
+        table
+        td {
+            text-align: center;
+        }
+
+        table
+        td:first-child {
+            text-align: left;
+        }
+
+        </style>
+</head>
+<body>
+    <section>
+        <table>
+            <caption>Responsiva</caption>
+            <colgroup>
+                <col class="col1" />
+            </colgroup>
+            <thead>
+                <tr>
+                    <th scope="col">Produtos</th>
+                    <th scope="col">Jan</th>
+                    <th scope="col">Fev</th>
+                    <th scope="col">Mar</th>
+                    <th scope="col">Abr</th>
+                    <th scope="col">Mai</th>
+                    <th scope="col">Jun</th>
+                    <th scope="col">Jul</th>
+                    <th scope="col">Ago</th>
+                    <th scope="col">Set</th>
+                    <th scope="col">Out</th>
+                    <th scope="col">Nov</th>
+                    <th scope="col">Dez</th>
+                </tr>
+            </thead>
+            <tbody>
+                <tr class="Esp0">
+                    <td class="Esp2">Tv 40</td>
+                    <td>01</td>
+                    <td>02</td>
+                    <td>03</td>
+                    <td>04</td>
+                    <td>05</td>
+                    <td>06</td>
+                    <td>07</td>
+                    <td>08</td>
+                    <td>09</td>
+                    <td>10</td>
+                    <td>11</td>
+                    <td>12</td>
+                </tr>
+                <tr class="Esp0">
+                    <td class="Esp3">Home Theater</td>
+                    <td>01</td>
+                    <td>02</td>
+                    <td>03</td>
+                    <td>04</td>
+                    <td>05</td>
+                    <td>06</td>
+                    <td>07</td>
+                    <td>08</td>
+                    <td>09</td>
+                    <td>10</td>
+                    <td>11</td>
+                    <td>12</td>
+                </tr>
+                <tr class="Esp0">
+                    <td class="Esp2">Samsung Galaxy S20</td>
+                    <td>01</td>
+                    <td>02</td>
+                    <td>03</td>
+                    <td>04</td>
+                    <td>05</td>
+                    <td>06</td>
+                    <td>07</td>
+                    <td>08</td>
+                    <td>09</td>
+                    <td>10</td>
+                    <td>11</td>
+                    <td>12</td>
+                </tr>
+                <tr class="Esp0">
+                    <td class="Esp3">iPad Mini</td>
+                    <td>01</td>
+                    <td>02</td>
+                    <td>03</td>
+                    <td>04</td>
+                    <td>05</td>
+                    <td>06</td>
+                    <td>07</td>
+                    <td>08</td>
+                    <td>09</td>
+                    <td>10</td>
+                    <td>11</td>
+                    <td>12</td>
+                </tr>
+                <tr class="Esp0">
+                    <td class="Esp2">PlayStation 4</td>
+                    <td>01</td>
+                    <td>02</td>
+                    <td>03</td>
+                    <td>04</td>
+                    <td>05</td>
+                    <td>06</td>
+                    <td>07</td>
+                    <td>08</td>
+                    <td>09</td>
+                    <td>10</td>
+                    <td>11</td>
+                    <td>12</td>
+                </tr>
+                <tr class="Esp0">
+                    <td class="Esp3">Lava Louça</td>
+                    <td>01</td>
+                    <td>02</td>
+                    <td>03</td>
+                    <td>04</td>
+                    <td>05</td>
+                    <td>06</td>
+                    <td>07</td>
+                    <td>08</td>
+                    <td>09</td>
+                    <td>10</td>
+                    <td>11</td>
+                    <td>12</td>
+                </tr>
+                <tr class="Esp0">
+                    <td class="Esp2">Amazon Echo</td>
+                    <td>01</td>
+                    <td>02</td>
+                    <td>03</td>
+                    <td>04</td>
+                    <td>05</td>
+                    <td>06</td>
+                    <td>07</td>
+                    <td>08</td>
+                    <td>09</td>
+                    <td>10</td>
+                    <td>11</td>
+                    <td>12</td>
+                </tr>
+            </tbody>
+        </table>
+    </section>
+
+
+
+    <script>
+        //Pegar valor scrool;
+        const scroll1 = document.getElementsByTagName('section')[0];
+        //Pegar valor tr da tabela;
+        const table1 =  document.querySelectorAll('tr.Esp0');
+        //Pegar valor do td.Esp2 da table;
+        const table2 = document.querySelectorAll('td.Esp2');
+        //Pegar valor do td.Esp3 da tabela;
+        const table3 = document.querySelectorAll('td.Esp3');
+
+        if(scroll1.scrollLeft === 0) {
+            table2.forEach((vl, ch) => { table2[ch].classList.remove('Esp2');});
+            table3.forEach((vl, ch) => { table3[ch].classList.remove('Esp3'); });
+        }
+        
+        scroll1.addEventListener('scroll',()=> {
+            if (scroll1.scrollLeft === 0 && document.querySelectorAll('tr.Esp')) {
+                //console.log(document.querySelector('tr.Esp'));
+                for(let c = 0;c <= table1.length-1;c++) {
+                    table1[c].className = "Esp0";
+                }
+                table2.forEach((vl,ch)=>{table2[ch].classList.remove('Esp2');});
+                table3.forEach((vl,ch)=>{table3[ch].classList.remove('Esp3');});
+            } else if (scroll1.scrollLeft >= 3 && document.querySelector('tr.Esp0')) {
+                table1.forEach((vl,ch)=>{table1[ch].className = 'Esp'});
+                table2.forEach((vl, ch) => { table2[ch].className = 'Esp2'; });
+                table3.forEach((vl, ch) => { table3[ch].className = 'Esp3'; });
+            }
+        })
+    </script>
+</body>
+</html>
